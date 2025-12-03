@@ -1,14 +1,11 @@
-/* globals Chart:false */
-
 (() => {
   'use strict'
 
-  // Obtém o contexto do canvas
+  // contexto do gráfico canvas
   const ctx = document.getElementById('myChart')
 
-  // eslint-disable-next-line no-unused-vars
   const myChart = new Chart(ctx, {
-    type: 'bar', // Alterado para gráfico de barras
+    type: 'bar', // gráfico de barras
     data: {
       labels: [
         'Julho',

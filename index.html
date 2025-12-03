@@ -251,13 +251,17 @@
       </path>
     </symbol>
   </svg>
-  <header class="navbar sticky-top bg-dark flex-md-nowrap p-0 shadow" data-bs-theme="dark">
-    <a class="navbar-brand col-md-3 col-lg-2 me-0 px-3 fs-1 text-white" href="./index.html">
-      <img src="./images/logo-finseven.png" alt="Fin Seven Logo" class="img-fluid">
+  <header class="navbar sticky-top bg-black flex-md-nowrap p-0 shadow z-3" data-bs-theme="dark">
+    <a class="navbar-brand col-md-2 col-lg-2 me-0 px-3 fs-1 text-white" href="./index.html">
+      <div class="row justify-content-center">
+        <div class="col-8 col-md-12">
+          <img src="./images/Logo-seven.png" class="img-fluid" alt="...">
+        </div>
+      </div>
     </a>
     <ul class="navbar-nav flex-row d-md-none">
       <li class="nav-item text-nowrap">
-        <button class="nav-link px-3 text-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSearch"
+        <button class="nav-link px-4 text-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSearch"
           aria-controls="navbarSearch" aria-expanded="false" aria-label="Alternar pesquisa">
           <svg class="bi" aria-hidden="true">
             <use xlink:href="#search"></use>
@@ -279,22 +283,26 @@
   </header>
   <div class="container-fluid">
     <div class="row">
-      <div class="sidebar border border-right col-md-3 col-lg-2 p-0 bg-body-tertiary">
-        <div class="offcanvas-md offcanvas-end bg-body-tertiary" tabindex="-1" id="sidebarMenu"
+      <div class="sidebar border border-right col-md-3 col-lg-2 p-0 bg-body-solid">
+        <div class="offcanvas-md offcanvas-end bg-body-solid" tabindex="-1" id="sidebarMenu"
           aria-labelledby="sidebarMenuLabel">
           <div class="offcanvas-header">
             <h3 class="offcanvas-title" id="sidebarMenuLabel">
-              Fin Seven
+              FinSeven
             </h3>
             <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#sidebarMenu"
-              aria-label="Close"></button>
+              aria-label="Close">
+            </button>
           </div>
-          <div class="offcanvas-body d-md-flex flex-column p-0 pt-lg-3 overflow-y-auto">
+          <div class="offcanvas-body d-md-flex flex-column p-0 pt-lg-1
+           overflow-y-auto">
             <ul class="nav flex-column">
               <li class="nav-item">
                 <a class="nav-link d-flex align-items-center gap-2 active" aria-current="page" href="#">
-                  <svg class="bi" aria-hidden="true">
-                    <use xlink:href="#house-fill"></use>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                    class="bi bi-house-door" viewBox="0 0 16 16">
+                    <path
+                      d="M8.354 1.146a.5.5 0 0 0-.708 0l-6 6A.5.5 0 0 0 1.5 7.5v7a.5.5 0 0 0 .5.5h4.5a.5.5 0 0 0 .5-.5v-4h2v4a.5.5 0 0 0 .5.5H14a.5.5 0 0 0 .5-.5v-7a.5.5 0 0 0-.146-.354L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293zM2.5 14V7.707l5.5-5.5 5.5 5.5V14H10v-4a.5.5 0 0 0-.5-.5h-3a.5.5 0 0 0-.5.5v4z" />
                   </svg>
                   Home
                 </a>
@@ -302,22 +310,22 @@
               <li class="nav-item">
                 <a class="nav-link d-flex align-items-center gap-2" href="#">
                   <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                    class="bi bi-cash-coin" viewBox="0 0 16 16">
-                    <path fill-rule="evenodd"
-                      d="M11 15a4 4 0 1 0 0-8 4 4 0 0 0 0 8m5-4a5 5 0 1 1-10 0 5 5 0 0 1 10 0" />
+                    class="bi bi-plus-square" viewBox="0 0 16 16">
                     <path
-                      d="M9.438 11.944c.047.596.518 1.06 1.363 1.116v.44h.375v-.443c.875-.061 1.386-.529 1.386-1.207 0-.618-.39-.936-1.09-1.1l-.296-.07v-1.2c.376.043.614.248.671.532h.658c-.047-.575-.54-1.024-1.329-1.073V8.5h-.375v.45c-.747.073-1.255.522-1.255 1.158 0 .562.378.92 1.007 1.066l.248.061v1.272c-.384-.058-.639-.27-.696-.563h-.668zm1.36-1.354c-.369-.085-.569-.26-.569-.522 0-.294.216-.514.572-.578v1.1zm.432.746c.449.104.655.272.655.569 0 .339-.257.571-.709.614v-1.195z" />
+                      d="M14 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1zM2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2z" />
                     <path
-                      d="M1 0a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h4.083q.088-.517.258-1H3a2 2 0 0 0-2-2V3a2 2 0 0 0 2-2h10a2 2 0 0 0 2 2v3.528c.38.34.717.728 1 1.154V1a1 1 0 0 0-1-1z" />
-                    <path d="M9.998 5.083 10 5a2 2 0 1 0-3.132 1.65 6 6 0 0 1 3.13-1.567" />
+                      d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4" />
                   </svg>
                   Receitas
                 </a>
               </li>
               <li class="nav-item">
                 <a class="nav-link d-flex align-items-center gap-2" href="#">
-                  <svg class="bi" aria-hidden="true">
-                    <use xlink:href="#cart"></use>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                    class="bi bi-dash-square" viewBox="0 0 16 16">
+                    <path
+                      d="M14 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1zM2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2z" />
+                    <path d="M4 8a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7A.5.5 0 0 1 4 8" />
                   </svg>
                   Despesas
                 </a>
@@ -325,9 +333,9 @@
               <li class="nav-item">
                 <a class="nav-link d-flex align-items-center gap-2" href="#">
                   <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                    class="bi bi-piggy-bank-fill" viewBox="0 0 16 16">
+                    class="bi bi-bar-chart" viewBox="0 0 16 16">
                     <path
-                      d="M7.964 1.527c-2.977 0-5.571 1.704-6.32 4.125h-.55A1 1 0 0 0 .11 6.824l.254 1.46a1.5 1.5 0 0 0 1.478 1.243h.263c.3.513.688.978 1.145 1.382l-.729 2.477a.5.5 0 0 0 .48.641h2a.5.5 0 0 0 .471-.332l.482-1.351c.635.173 1.31.267 2.011.267.707 0 1.388-.095 2.028-.272l.543 1.372a.5.5 0 0 0 .465.316h2a.5.5 0 0 0 .478-.645l-.761-2.506C13.81 9.895 14.5 8.559 14.5 7.069q0-.218-.02-.431c.261-.11.508-.266.705-.444.315.306.815.306.815-.417 0 .223-.5.223-.461-.026a1 1 0 0 0 .09-.255.7.7 0 0 0-.202-.645.58.58 0 0 0-.707-.098.74.74 0 0 0-.375.562c-.024.243.082.48.32.654a2 2 0 0 1-.259.153c-.534-2.664-3.284-4.595-6.442-4.595m7.173 3.876a.6.6 0 0 1-.098.21l-.044-.025c-.146-.09-.157-.175-.152-.223a.24.24 0 0 1 .117-.173c.049-.027.08-.021.113.012a.2.2 0 0 1 .064.199m-8.999-.65a.5.5 0 1 1-.276-.96A7.6 7.6 0 0 1 7.964 3.5c.763 0 1.497.11 2.18.315a.5.5 0 1 1-.287.958A6.6 6.6 0 0 0 7.964 4.5c-.64 0-1.255.09-1.826.254ZM5 6.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0" />
+                      d="M4 11H2v3h2zm5-4H7v7h2zm5-5v12h-2V2zm-2-1a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h2a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1zM6 7a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v7a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1zm-5 4a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v3a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1z" />
                   </svg>
                   Investimentos
                 </a>
@@ -431,7 +439,7 @@
       <main class="col-md-9 ms-sm-auto col-lg-10 px-md-4">
         <div
           class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
-          <h1 class="h2">Painel</h1>
+          <h2 class="h2">Meu Painel</h2>
           <div class="btn-toolbar mb-2 mb-md-0">
             <div class="btn-group me-2">
               <button type="button" class="btn btn-sm btn-outline-success" data-bs-toggle="modal"
@@ -497,7 +505,7 @@
             </div>
           </div>
         </div>
-        <canvas class="my-4 w-100" id="myChart" width="900" height="380"
+        <canvas class="my-4 w-100" id="myChart" width="500" height="150"
           style="display: block; box-sizing: border-box; height: 380px; width: 900px;"></canvas>
         <h2>Últimos Lançamentos</h2>
         <div class="table-responsive small">
@@ -542,7 +550,7 @@
                 <td>Investimentos</td>
                 <td>Poupança</td>
                 <td>Bradesco</td>
-                <td>- R$ 150,00</td>
+                <td class="text-info">- R$ 1.500,00</td>
                 <td><button class="btn btn-sm btn-outline-primary">Editar</button></td>
               </tr>
               <tr>
@@ -581,6 +589,34 @@
               </select>
             </div>
             <div class="mb-3">
+              <label for="transaction-type" class="form-label">Categoria</label>
+              <select class="form-select" id="transaction-type">
+                <option selected>Escolha...</option>
+                <option value="pagamentos">Pagamentos</option>
+                <option value="rendimentos">Rendimentos</option>
+                <option value="comissao">Comissão</option>
+                <option value="beneficios">Benefícios</option>
+                <option value="servicos">Serviços</option>
+                <option value="pagamentos">Pagamentos</option>
+                <option value="aluguel">Aluguel</option>
+                <option value="compras">Compras</option>
+                <option value="lazer">Lazer</option>
+                <option value="educacao">Educação</option>
+                <option value="saude">Saúde</option>
+                <option value="transporte">Transporte</option>
+                <option value="poupanca">Poupança</option>
+              </select>
+            </div>
+            <div class="mb-3">
+              <label for="transaction-type" class="form-label">Conta</label>
+              <select class="form-select" id="transaction-type">
+                <option selected>Escolha...</option>
+                <option value="bradesco">Bradesco 123456-7</option>
+                <option value="nubank">Nubank 765432-1</option>
+                <option value="inter">Inter 159753-5</option>
+              </select>
+            </div>
+            <div class="mb-3">
               <label for="transaction-value" class="form-label">Valor</label>
               <input type="number" class="form-control" id="transaction-value" placeholder="R$ 0,00">
             </div>
@@ -588,9 +624,15 @@
               <label for="transaction-description" class="form-label">Descrição</label>
               <input type="text" class="form-control" id="transaction-description" placeholder="Ex: Salário">
             </div>
-            <!-- Adicione outros campos como data, conta, categoria, etc. -->
+            <div class="mb-3">
+              <label for="transaction-date" class="form-label">Data</label>
+              <input type="date" class="form-control" id="transaction-date">
+            </div>
           </form>
         </div>
+
+        <!-- Vou adicionar ainda informações como: Se escolher novo lançamento, o sistema vai filtrar a categoria por tipo de lançamento.  -->
+
         <div class="modal-footer">
           <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
           <button type="button" class="btn btn-primary">Salvar Lançamento</button>
@@ -608,11 +650,7 @@
     integrity="sha384-eI7PSr3L1XLISH8JdDII5YN/njoSsxfbrkCTnJrzXt+ENP5MOVBxD+l6sEG4zoLp" crossorigin="anonymous"
     class="astro-vvvwv3sm"></script>
   <script>
-    /*!
-     * Color mode toggler for Bootstrap's docs (https://getbootstrap.com/)
-     * Copyright 2011-2024 The Bootstrap Authors
-     * Licensed under the Creative Commons Attribution 3.0 Unported License.
-     */
+    /*! Alternador de modo de cor do Bootstrap (https://getbootstrap.com/) */
 
     (() => {
       'use strict'
@@ -702,7 +740,7 @@
 
           const period = item.getAttribute('data-period');
           console.log(`Período selecionado: ${period}`);
-          // Aqui você adicionaria a lógica para atualizar o gráfico e a tabela
+          // Aqui vou adicionar a lógica para atualizar o gráfico e a tabela
           // com base no período selecionado.
         });
       });
