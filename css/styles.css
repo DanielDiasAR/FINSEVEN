@@ -48,9 +48,7 @@ a, .btn {
   font-size: var(--heading-font-size);
 }
 
-/*
- * Navbar
- */
+/* Navbar */
 
 .navbar-brand {
   padding-top: .75rem;
